@@ -26,14 +26,16 @@ This is the main landing page of my app. Here user can type their name and selec
 It is fully functional and responsive.
 
 
-![image](https://user-images.githubusercontent.com/101565730/201592601-da7ad561-199c-4449-9622-489d7ed02791.png)
+![chat_app](https://user-images.githubusercontent.com/99971829/232611896-cc11b295-6af9-43e6-a531-c29561eee987.png)
+
 
 # Main chat room -
 Here user can chat with each other
 It is fully functional and responsive.
 
 
-![image](https://user-images.githubusercontent.com/101565730/201592779-c6e9e1fa-4b2c-47d0-b8d5-d07d3ebe9976.png)
+![chat_room](https://user-images.githubusercontent.com/99971829/232612009-3eb25936-dfdf-4da8-a24b-4ca47d72bfdb.png)
+
 
 
 
