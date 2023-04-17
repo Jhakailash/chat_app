@@ -1,10 +1,13 @@
 .container{
+    /* border: 1px solid red; */
     height: 400px;
     width: 400px;
     margin-top: 100px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(5, 5, 221, 0.25) 0px 50px 100px -20px, rgba(5, 103, 93, 0.3) 0px 30px 60px -30px, rgba(6, 119, 57, 0.35) 0px -2px 6px 0px inset;
     padding: 10px;
     text-align: center;
+    border-radius: 20px;
+    /* background-color: teal; */
 }
 
 .heading{
@@ -33,10 +36,18 @@
 .formSubmit{
     height: 50px;
     width: 90%;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-top: 40px;
     background-image: linear-gradient(blue, palevioletred);
     font-size: 25px;
     color: aliceblue;
+    cursor: pointer;
+    border: none;
 
 }
+.formSubmit:hover{
+    background-image: linear-gradient(palevioletred, blue);
+
+
+}
+

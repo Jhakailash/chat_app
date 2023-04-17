@@ -41,13 +41,16 @@ const MainForm = () => {
     }
   return (
     <div className='container'>
+
       <form onSubmit={handleSubmit}>
         <div className='heading'>
             <h2>Welcome to <span className='start'>Chat</span><span className='end'>Hub</span></h2>
         </div>
+
         <div className='nameInput'>
             <input type='text' name='name' onChange={handleChange} placeholder='Enter name'/>
         </div>
+        
         <div className='selectRoom'>
             <select name='room' onChange={handleChange}>
                 <option value=''>Select Room</option>
@@ -56,7 +59,7 @@ const MainForm = () => {
                 <option value='Social Media'>Social Media</option>
             </select>
         </div>
-        <button className='formSubmit' type='submit'>Submit</button>
+        <button className='formSubmit' type='submit'>Go For Chat</button>
         {error ? <h5>{error}</h5> : ""}
       </form>
     </div>
