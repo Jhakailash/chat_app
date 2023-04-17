@@ -1,0 +1,82 @@
+.roomContainer{
+    height: 600px;
+    width: 500px;
+    box-shadow: rgba(25, 160, 214, 0.3) 0px 19px 38px, rgba(23, 148, 211, 0.22) 0px 15px 12px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.msgContainer{
+    border-radius: 20px;
+    height: 70%;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: rgb(70, 217, 175) 3px 3px 6px 0px inset, rgba(35, 198, 138, 0.5) -3px -3px 6px 1px inset;
+    overflow: auto;
+}
+
+.sendMsg{
+    margin-top: 40px;
+}
+.sendMsg>input{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-top: none;
+    border-bottom: 2px solid green;
+}
+.sendMsg>input:focus{
+    border: none;
+}
+
+.sendMsg>button{
+    width: 20%;
+    height: 40px;
+    background-image: linear-gradient(blue, palevioletred);
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sendMsg>button:hover{
+    background-image: linear-gradient(palevioletred,blue);
+    
+
+}
+.msgbox{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+.msgbox2{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+ 
+}
+.msg{
+    width: 200px;
+    height: auto;
+    background-color:rgb(14, 107, 80);
+    color: aliceblue;
+    margin-top: 10px;
+    border-radius: 100px 0px 100px 10px;
+   
+}
+
+.msg2{
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: palevioletred;
+    color: aliceblue;
+    margin-top: 10px;
+    border-radius: 0px 15px 15px 0px;
+   
+}
